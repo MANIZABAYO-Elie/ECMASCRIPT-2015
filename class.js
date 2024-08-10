@@ -14,7 +14,16 @@ const areaOfRectangle = new rectangle(20,40)
 console.log(areaOfRectangle.area);
 
 // 
-class polygon {
-    
+class polygon  {
+    constructor(height,width) {
+        this.area = height*width;
+
+    }
 }
-  
+const crossArea = new polygon(4,10)
+  console.log(crossArea.area);
+  class name {
+    constructor(parameters) {
+        
+    }
+  }
