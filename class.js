@@ -33,6 +33,8 @@ class Rectangle {
     findArea(){
         return this.width*this.height
     }
+
 }
-const  myRectangle = new Rectangle(25,50,)
-console.log(myRectangle.Area);
+const  myRectangle1 = new Rectangle(25,50,)
+console.log(myRectangle1.Area);
+
