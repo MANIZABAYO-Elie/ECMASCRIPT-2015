@@ -27,5 +27,5 @@ class Rectangle {
      this.color = "red"   
     }
 }
-let myRectangle = new Rectangle()
+let myRectangle = new Rectangle(25,50,"red")
 console.log(myRectangle);
