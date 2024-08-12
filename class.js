@@ -22,10 +22,17 @@ class polygon  {
 }
 class Rectangle {
     constructor(height,width,color) {
-     this.width = 50
-     this.height = 25
-     this.color = "red"   
+     this.width = height
+     this.height = width
+     this.color = color   
+    }
+     get Area(){
+        return this.findArea()
+        
+    }
+    findArea(){
+        return this.width*this.height
     }
 }
-let myRectangle = new Rectangle(25,50,"red")
-console.log(myRectangle);
+const  myRectangle = new Rectangle(25,50,)
+console.log(myRectangle.Area);
