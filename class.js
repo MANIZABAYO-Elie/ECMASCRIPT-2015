@@ -20,10 +20,12 @@ class polygon  {
 
     }
 }
-const crossArea = new polygon(4,10)
-  console.log(crossArea.area);
-  class name {
-    constructor(parameters) {
-        
+class Rectangle {
+    constructor(height,width,color) {
+     this.width = 50
+     this.height = 25
+     this.color = "red"   
     }
-  }
+}
+let myRectangle = new Rectangle()
+console.log(myRectangle);
